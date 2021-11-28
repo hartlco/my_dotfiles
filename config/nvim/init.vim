@@ -9,5 +9,13 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Or build from source code by using yarn: https://yarnpkg.com
 Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
 
+
+" NERDTree
+
+Plug 'preservim/nerdtree'
+
 " Initialize plugin system
 call plug#end()
+
+" Start NERDTree and leave the cursor in it.
+autocmd VimEnter * NERDTree
