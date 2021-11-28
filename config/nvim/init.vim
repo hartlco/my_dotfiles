@@ -14,6 +14,9 @@ Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lock
 
 Plug 'preservim/nerdtree'
 
+" Airline
+Plug 'vim-airline/vim-airline'
+
 " Initialize plugin system
 call plug#end()
 
